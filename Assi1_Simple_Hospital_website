@@ -1,0 +1,505 @@
+
+1.Home.html
+  
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Assi1.css">
+    <style>
+        .heading a {
+            border: 1px solid white;
+            color: antiquewhite;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .heading a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Bootstrap Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Assi1.html">HealthCare</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Assi1.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Doctors.html">Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Testimonials.html">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Appoinment.html">Appoinment</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="heading">
+        <h1>Your Health, Our Priority</h1>
+        <br>
+        <a href="Appoinment.html">Book Appointment</a>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+-----------------------------------------------------------------------------
+2.About.html
+          
+          <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assi1.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body{
+        text-align: center;
+        color: white;
+      }
+        h1{
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="health_logo.jpeg">HealthCare</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Assi1.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Doctors.html">Doctors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Testimonials.html">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Appoinment.html">Appoinments</a>
+        </li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+       <h1 style="margin: 30px;">About Us</h1>
+    <div style="width: 50%;margin: auto;">
+        <p >Welcome to health care clinic. We combine Expert Medical care with a human touch, 
+          ensuring you get the best health solutions. With modern facilities and experienced doctors, 
+          we are here for your wellness journey.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+----------------------------------------------------------------------------------------------------------------
+3.Services.html
+      
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assi1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body{
+            text-align: center;
+            color: white;
+        }
+        .services{
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .service{
+            margin: 30px;
+            display: inline-block;
+            width: 40%;
+           
+
+        }
+    
+    </style>
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="health_logo.jpeg">HealthCare</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Assi1.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Doctors.html">Doctors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Testimonials.html">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Appoinment.html">Appoinments</a>
+        </li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+    <h1 style="text-align: center;margin: 30px;">Our Services</h1>
+    <div class="services">
+    <div class="service">
+        <b>General Consultation</b>
+        <p>30 mins session</p>
+        <p>$50</p>
+    </div>
+    <div class="service">
+        <b>Dental Checkup</b>
+        <p>45 mins session</p>
+        <p>$75</p>
+    </div>
+    <div class="service">
+        <b>Cardiology Screening</b>
+        <p>60 mins session</p>
+        <p>$120</p>
+    </div>
+    <div class="service">
+        <b>Physiotherapy</b>
+        <p>60 mins session</p>
+        <p>$60</p>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+-------------------------------------------------------------------------------------------------------------
+  4.Doctors.html
+      
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assi1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body{
+            text-align: center;
+            color: white;
+        }
+        
+           
+        .doctor{
+            border: 2px solid wheat;
+           
+            display: inline-block;
+            padding: 20px;
+            margin: 20px;
+            width: 20%;
+
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="health_logo.jpeg">HealthCare</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Assi1.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Doctors.html">Doctors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Testimonials.html">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Appoinment.html">Appoinments</a>
+        </li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+    <h1 style="text-align: center;margin: 30px;">Meet Our Doctors</h1>
+    <div class="Doctors">
+        <div class="doctor">
+            <b style="text-align: center;">Dr.Jadhav</b>
+            <p>Cardiologist with 10+ years
+            of experience. </p>
+        </div>
+         <div class="doctor">
+            <b style="text-align: center;">Dr.kothari</b>
+            <p>Dentist Specializing in cosmetic
+            dentistry. </p>
+        </div>
+    </div>
+     <div class="doctor">
+            <b style="text-align: center;">Dr.Shelke</b>
+            <p>Expert physiotherapist focused 
+             on sports injuries. </p>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------
+5.Testimonials.html
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assi1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body{
+            text-align: center;
+            color: white;
+            
+        }
+        .main{
+            border: 2px solid wheat; 
+                  
+            margin: 35px;
+        }
+    </style>
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="health_logo.jpeg">HealthCare</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Assi1.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Doctors.html">Doctors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Testimonials.html">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Appoinment.html">Appoinments</a>
+        </li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+    <h1 style="margin: 30px;">What Our Patients Say</h1>
+    <div class="Testi">
+        <div class="main">
+            <p style="padding-top: 15px;">"The doctors were so attentive and the facilities were topnotch. Highly recommended!"</p>
+            <p style="text-align: right;padding-right: 10px;">-xyz</p>
+        </div>
+        <div class="main">
+            <p style="padding-top: 15px;">"Great experience from booking to consultation. will come back for sure."</p>
+            <p style="text-align: right;padding-right: 10px;">-abc</p>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+---------------------------------------------------------------------------------------------------------------------------
+6.Appoinment.html
+
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assi1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body{
+        color: white;
+      }
+        form{
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .appo h1{
+            text-align: center;
+            padding-bottom: 40px;
+
+        }
+        .formg{
+            
+            margin-bottom: 20px;
+        }
+        button{
+              border: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="health_logo.jpeg">HealthCare</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Assi1.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Doctors.html">Doctors</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Testimonials.html">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Appoinment.html">Appoinments</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+    <div class="appo">
+        <h1 style="margin: 30px;" >Book an Appoinment</h1>
+        <form>
+        <div class="formg">
+        <label>1. Your Name</label>
+        <input type="text">
+        </div>
+        <div class="formg">
+        <label>2. Your Email</label>
+        <input type="email">
+       </div>
+       <div class="formg">
+        <label>3. Preffered Date &time</label>
+        <input type="datetime-local">
+        </div>
+        <div class="formg">
+        <label>4. Your Message</label>
+        <input type="text">
+        </div>
+        <button id="btn1">Book Now</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  
+   <script>
+  
+        document.getElementById("btn1").addEventListener("click",function(){alert("Booking Successful")});
+   
+   </script>
+</body>
+</html> 
+----------------------------------------------------------------------------------------------------------------------
+
+Assi1.css
+
+body{
+    
+    background-image: url('dr_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+   
+.navbar{
+   display: flex;
+   justify-content: center;
+    gap: 50px;
+    background: white;
+    padding: 30px;
+   
+
+    
+}
+.heading{
+    padding-top: 50px;
+    text-align: center;
+}
+     
+      
+              
