@@ -1,0 +1,70 @@
+// index.js
+const express = require('express');
+const app = express();
+const port = 3000;
+
+// Middleware to parse JSON request bodies
+app.use(express.json());
+
+// In-memory array of students
+let students = [
+  { id: 1, name: 'Rahul', age: 19, course: 'BTech' },
+  { id: 2, name: 'Sita', age: 20, course: 'BSc' }
+];
+let nextId = 3;
+
+// GET all students
+app.get('/students', (req, res) => {
+  res.json(students);
+});
+
+// GET student by ID
+app.get('/students/:id', (req, res) => {
+  const id = parseInt(req.params.id);
+  const student = students.find(s => s.id === id);
+  if (!student) {
+    return res.status(404).json({ error: 'Student not found' });
+  }
+  res.json(student);
+});
+
+// POST create new student
+app.post('/students', (req, res) => {
+  const { name, age, course } = req.body;
+  if (!name || !age || !course) {
+    return res.status(400).json({ error: 'name, age, and course are required' });
+  }
+  const newStudent = { id: nextId++, name, age, course };
+  students.push(newStudent);
+  res.status(201).json(newStudent);
+});
+
+// PUT update student by ID
+app.put('/students/:id', (req, res) => {
+  const id = parseInt(req.params.id);
+  const student = students.find(s => s.id === id);
+  if (!student) {
+    return res.status(404).json({ error: 'Student not found' });
+  }
+  const { name, age, course } = req.body;
+  if (name) student.name = name;
+  if (age) student.age = age;
+  if (course) student.course = course;
+  res.json(student);
+});
+
+// DELETE student by ID
+app.delete('/students/:id', (req, res) => {
+  const id = parseInt(req.params.id);
+  const index = students.findIndex(s => s.id === id);
+  if (index === -1) {
+    return res.status(404).json({ error: 'Student not found' });
+  }
+  const deleted = students.splice(index, 1);
+  res.json({ message: 'Student deleted', deleted });
+});
+
+// Start the server
+app.listen(port, () => {
+  console.log(`✅ Server running at http://localhost:${port}/`);
+});
